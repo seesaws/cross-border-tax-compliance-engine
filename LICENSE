@@ -1,0 +1,25 @@
+# License
+
+This project utilizes a Dual Licensing model.
+
+## 1. Open Source Core (MIT License)
+The source code located in the `core/`, `connectors/`, and `utils/` directories 
+is licensed under the **MIT License**. You are free to use, modify, and distribute 
+these parts according to the terms of the MIT License.
+
+See `LICENSE-MIT` for the full text.
+
+## 2. Enterprise Edition (Commercial License)
+The source code located in the `ee/` (Enterprise Edition) directory is 
+**PROPRIETARY AND CONFIDENTIAL**. 
+
+These files are NOT covered by the MIT License. They are licensed exclusively 
+under a Commercial License. 
+- Unauthorized use, copying, modification, or distribution of these files is strictly prohibited.
+- To use the features in the `ee/` directory, you must purchase a valid license key from [Your Website/Contact].
+
+See `LICENSE-COMMERCIAL` for the terms or contact us at [your-email@example.com] for pricing.
+
+## Summary
+- ✅ Free to use: Core calculation engine, basic connectors.
+- 🔒 Paid license required: Advanced tax planning, audit logs, multi-tenant support, premium dashboard.
