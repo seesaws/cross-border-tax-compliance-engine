@@ -1,25 +1,36 @@
-# License
+# License Agreement
 
-This project utilizes a Dual Licensing model.
+This repository uses a **Dual Licensing** model. Please read carefully to understand which license applies to which part of the codebase.
 
 ## 1. Open Source Core (MIT License)
-The source code located in the `core/`, `connectors/`, and `utils/` directories 
-is licensed under the **MIT License**. You are free to use, modify, and distribute 
-these parts according to the terms of the MIT License.
 
-See `LICENSE-MIT` for the full text.
+The source code located in the following directories is licensed under the **MIT License**:
+
+- `/core`
+- `/connectors`
+- `/utils`
+- `/docs`
+
+You are free to use, modify, distribute, and sublicense these parts of the software, subject to the terms of the MIT License. A copy of the MIT License is included in this repository as `LICENSE-MIT`.
 
 ## 2. Enterprise Edition (Commercial License)
-The source code located in the `ee/` (Enterprise Edition) directory is 
-**PROPRIETARY AND CONFIDENTIAL**. 
 
-These files are NOT covered by the MIT License. They are licensed exclusively 
-under a Commercial License. 
-- Unauthorized use, copying, modification, or distribution of these files is strictly prohibited.
-- To use the features in the `ee/` directory, you must purchase a valid license key from [Your Website/Contact].
+The source code located in the `/ee` (Enterprise Edition) directory is **PROPRIETARY SOFTWARE**.
 
-See `LICENSE-COMMERCIAL` for the terms or contact us at [your-email@example.com] for pricing.
+- These files are **NOT** open source.
+- They are **NOT** covered by the MIT License.
+- Usage, copying, modification, or distribution of these files requires a valid **Commercial License Agreement**.
 
-## Summary
-- ✅ Free to use: Core calculation engine, basic connectors.
-- 🔒 Paid license required: Advanced tax planning, audit logs, multi-tenant support, premium dashboard.
+Unauthorized use of the `/ee` directory contents is strictly prohibited. To obtain a commercial license, please contact us at [your-email@example.com] or visit [your-website.com].
+
+## Summary of Usage Rights
+
+| Feature Area | Directory | License Type | Cost |
+| :--- | :--- | :--- | :--- |
+| **Core Engine** | `/core` | MIT (Open Source) | Free |
+| **Basic Connectors** | `/connectors` | MIT (Open Source) | Free |
+| **Advanced Analytics** | `/ee/analytics` | Commercial (Proprietary) | Paid |
+| **Audit Logs** | `/ee/audit` | Commercial (Proprietary) | Paid |
+| **Multi-Tenancy** | `/ee/multi-tenant` | Commercial (Proprietary) | Paid |
+
+By using this repository, you agree to comply with the respective licenses for each component.

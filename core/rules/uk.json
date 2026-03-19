@@ -1,0 +1,23 @@
+{
+  "country": "UK",
+  "tax_type": "VAT",
+  "currency": "GBP",
+  "rates": {
+    "standard": {
+      "rate": "0.20",
+      "description": "标准税率 20%"
+    },
+    "reduced": {
+      "rate": "0.05",
+      "description": "减免税率 5%（儿童安全座椅、家用能源等）"
+    },
+    "zero": {
+      "rate": "0.00",
+      "description": "零税率（食品、书籍、儿童服装等）"
+    }
+  },
+  "thresholds": {
+    "vat_registration": 85000,
+    "distance_selling": 70000
+  }
+}

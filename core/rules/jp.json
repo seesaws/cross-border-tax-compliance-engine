@@ -1,0 +1,18 @@
+{
+  "country": "JP",
+  "tax_type": "CONSUMPTION_TAX",
+  "currency": "JPY",
+  "rates": {
+    "standard": {
+      "rate": "0.10",
+      "description": "标准消费税 10%"
+    },
+    "reduced": {
+      "rate": "0.08",
+      "description": "轻减税率 8%（食品、饮料、报纸等）"
+    }
+  },
+  "thresholds": {
+    "taxable_sales": 10000000
+  }
+}

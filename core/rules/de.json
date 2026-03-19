@@ -1,0 +1,18 @@
+{
+  "country": "DE",
+  "tax_type": "VAT",
+  "currency": "EUR",
+  "rates": {
+    "standard": {
+      "rate": "0.19",
+      "description": "标准税率 19%"
+    },
+    "reduced": {
+      "rate": "0.07",
+      "description": "减免税率 7%（食品、书籍、公共交通等）"
+    }
+  },
+  "thresholds": {
+    "small_business_exemption": 22000
+  }
+}

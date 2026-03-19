@@ -1,0 +1,24 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run interface/web/app.py --server.address=0.0.0.0
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: uvicorn interface.api.app:app --host 0.0.0.0 --port 8000
+
+  cli:
+    build: .
+    profiles:
+      - cli
+    volumes:
+      - .:/app
+    entrypoint: ["tax-calc"]

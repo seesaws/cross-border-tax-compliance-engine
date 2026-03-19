@@ -1,0 +1,24 @@
+{
+  "country": "US",
+  "tax_type": "SALES_TAX",
+  "currency": "USD",
+  "rates": {
+    "CA": {
+      "rate": "0.0725",
+      "description": "加利福尼亚州 7.25%"
+    },
+    "TX": {
+      "rate": "0.0625",
+      "description": "德克萨斯州 6.25%"
+    },
+    "NY": {
+      "rate": "0.04",
+      "description": "纽约州 4%"
+    },
+    "FL": {
+      "rate": "0.06",
+      "description": "佛罗里达州 6%"
+    }
+  },
+  "notes": "美国各州税率不同，此处仅列示州级基础税率，不含地方附加税"
+}

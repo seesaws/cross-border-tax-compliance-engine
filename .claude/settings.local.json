@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip show:*)",
+      "Bash(\"/c/Users/loctek/AppData/Local/Programs/Python/Python313/python.exe\" -c \"from interface.api.app import app; print\\('FastAPI app loaded:', app.title\\)\" 2>&1)",
+      "Bash(/c/Users/loctek/AppData/Local/Programs/Python/Python313/python.exe -c \"from interface.api.app import app; print\\('FastAPI app loaded:', app.title\\)\" 2>&1)",
+      "Bash(py:*)",
+      "Bash(ls:*)",
+      "Bash(pytest --co -q -k \"test_uk\")",
+      "Bash(pytest -x -q -c pyproject.toml --override-ini=\"pythonpath=.\" -k \"no_match\" --collect-only)",
+      "Bash(/c/Users/loctek/AppData/Local/Programs/Python/Python313/Scripts/pytest.exe -v tests/test_api.py 2>&1)",
+      "Bash(cmd.exe //c \"cd /d C:\\\\Users\\\\loctek\\\\Desktop\\\\vscode\\\\cross-border-tax-compliance-engine && pytest -v tests/test_api.py\" 2>&1)",
+      "Bash(export PATH=\"$PATH:/c/Users/loctek/AppData/Local/Programs/Python/Python313/Scripts:/c/Users/loctek/AppData/Local/Programs/Python/Python313\")",
+      "Bash(pytest -v tests/test_api.py)"
+    ]
+  }
+}
